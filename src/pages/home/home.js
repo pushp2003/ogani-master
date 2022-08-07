@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../../components/header';
-import Login from '../home/login';
+import Login from './login';
 
 const Home = () => {
     return (
         <div>
             <Header/>
-            <Login/>
+            {/* <Login/> */}
         </div>
     );
 }
