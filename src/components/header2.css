@@ -1,0 +1,47 @@
+.bottom-header-1 a {
+    margin-left: 183px;
+}
+.bottom-header-1 img{
+    padding: 12px;
+}
+.bottom-header-2 a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(18, 16, 16);
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.bottom-header-2{
+    margin-top: 25px;
+}
+.bottom-header-3 a{
+    padding: 15px;
+    color: black;
+}
+.bottom-header-3 .heart:hover{
+    color:red;
+}
+.bottom-header-3 .basket:hover{
+    color:rgb(67, 38, 172);
+}
+.bottom-header-3{
+    margin-top: 25px;
+
+}
+.bottom-header-4{
+    margin-top: 25px;
+    color: rgba(43, 43, 43, 0.753);
+}
+.bottom-header-4 span{
+    color: black !important;
+}
+.icon{
+    font-size: smaller;
+}
+.hom-1{
+    color: #7fad39 !important;
+}
+.l-1{
+    display: none;
+}
