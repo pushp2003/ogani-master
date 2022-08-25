@@ -1,0 +1,32 @@
+.ban{
+    /* overflow: hidden; */
+    margin-top: 35px;
+    margin-left:495px;
+}
+.banner-txt{
+    margin-top: -350px;
+    margin-left: 60px;
+}
+.banner-txt .l{
+    font-size: 14px;
+    font-weight: 700;
+    color: #7fad39;
+    padding: 5px 0px;
+    letter-spacing: 4px;
+}
+.banner-txt .l-2{
+    font-size: 47px;
+    font-weight: 900;
+}
+.banner-txt .l-3{
+    font-size: 17px;
+    color: #6f6f6f;
+}
+.l-4 button{
+    font-size: 15px;
+    padding: 8px 20px;
+    font-weight: 900;
+    background-color:#7fad39;
+    border: 1px solid #7fad39; 
+    color: aliceblue;
+}
