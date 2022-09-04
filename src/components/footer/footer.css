@@ -1,86 +1,87 @@
-.footer{
-    background-color: #F3F6FA;
-    font-family:serif;  
+.footer {
+  background-color: #f3f6fa;
+  font-family: serif;
 }
-.container{
-    margin-top: 50px;
+.footer .container {
+  margin-top: 50px;
 }
-.sub-address{
-    margin-left: 140px;
+.sub-address {
+  margin-left: 140px;
 }
-.sub-address img{
-    padding: 10px 0px;
-    cursor: pointer;
+.sub-address img {
+  padding: 10px 0px;
+  cursor: pointer;
 }
-.imp-link h6, td {
-    padding: 4px 25px;
+.imp-link h6,
+td {
+  padding: 4px 25px;
 }
-.imp-link h6{
-    font-weight: 900;
-    font-family:'Serif', Tahoma, Geneva, Verdana, sans-serif !important;    
+.imp-link h6 {
+  font-weight: 900;
+  font-family: "Serif", Tahoma, Geneva, Verdana, sans-serif !important;
 }
-.imp-link a{
-    cursor: pointer;
+.imp-link a {
+  cursor: pointer;
 }
-.link .imp-link table tr td a:hover{
-    background-color: red !important;
+.link .imp-link table tr td a:hover {
+  background-color: red !important;
 }
-.join-us{
-    margin-left: 50px;
+.join-us {
+  margin-left: 50px;
 }
-.join-us h6{
-    font-weight: 900;
-    font-family:'Serif', Tahoma, Geneva, Verdana, sans-serif !important;    
+.join-us h6 {
+  font-weight: 900;
+  font-family: "Serif", Tahoma, Geneva, Verdana, sans-serif !important;
 }
-.social{
-    margin-left: -25px;
+.social {
+  margin-left: -25px;
 }
-.social button{
-    margin-top: 20px;
-    margin-left: 25px;
-    height: 41px;
-    width: 41px;
-    border: 1px solid #404040;
-    border-radius: 50px;
-    font-size: 16px;
-    background-color: #ffffff;
+.social button {
+  margin-top: 20px;
+  margin-left: 25px;
+  height: 41px;
+  width: 41px;
+  border: 1px solid #404040;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: #ffffff;
 }
-.social button:hover{
-    background-color: #7fad39;
-    border-color: #7fad39;
-    color: #F3F6FA;
+.social button:hover {
+  background-color: #7fad39;
+  border-color: #7fad39;
+  color: #f3f6fa;
 }
-form{
-    padding: 20px 0px;
+form {
+  padding: 20px 0px;
 }
-form input{
-    height: 46px;
-    border: 1px solid #4040406a;
-    outline: none;
-    padding-left: 20px;
-    font-size: 16px;
+form input {
+  height: 46px;
+  border: 1px solid #4040406a;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
 }
-form button{
-    height: 46px;
-    border: 1px solid #7fad39;
-    background-color: #7fad39;
-    color: #F3F6FA; 
-    font-size: 15px; 
-    font-weight: 900; 
+form button {
+  height: 46px;
+  border: 1px solid #7fad39;
+  background-color: #7fad39;
+  color: #f3f6fa;
+  font-size: 15px;
+  font-weight: 900;
 }
-.copyright{
-    margin-top: 20px;
+.copyright {
+  margin-top: 20px;
 }
-.copyright p{
-    margin-left: 133px;
+.copyright p {
+  margin-left: 133px;
 }
-.copyright p a{
-    text-decoration: none;
+.copyright p a {
+  text-decoration: none;
 }
-.copyright hr{
-    margin-left: 25px;
+.copyright hr {
+  margin-left: 25px;
 }
-.payment{
-    margin-left: 890px;
-    margin-top: -42px;
+.payment {
+  margin-left: 890px;
+  margin-top: -42px;
 }

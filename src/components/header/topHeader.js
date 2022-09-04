@@ -1,48 +1,47 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faUser } from "@fortawesome/free-solid-svg-icons";
-import "bootstrap/dist/css/bootstrap.css";
+import { HiMail } from "react-icons/hi";
+import {ImFacebook} from "react-icons/im";
+import {BsTwitter} from "react-icons/bs";
+import {GrLinkedinOption} from "react-icons/gr";
+import {FaPinterestP} from "react-icons/fa";
+import {RiArrowDropDownLine} from "react-icons/ri";
+import {FcManager} from "react-icons/fc";
+import LangPng from "../../assets/img/language.png";
 import "./topHeader.css";
-import {
-  faFacebookF,
-  faLinkedinIn,
-  faPinterestP,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-
 const TopHeader = () => {
   return (
-    <div className="header row bg-light ">
-      <div className="header-1 col-md-6 col-lg-6 ">
-        <ul className="header-li">
-          <li className="header-1-li ">
-            <span>
-              <FontAwesomeIcon icon={faEnvelope} /> hello@pushp.com
+    <div className="header-section">
+      <div className="container">
+        <div className="header-inner">
+          <div className="mail-section">
+            <ul>
+              <li>
+                <span>
+                  <HiMail />
+                </span>
+                Hello@gmail.com
+              </li>
+              <li>Free Shipping for all orders of $99</li>
+            </ul>
+          </div>
+          <div className="social-section">
+            <ul className="social-section-1">
+              <li><a className="face"><ImFacebook/></a></li>
+              <li><a className="twitter"><BsTwitter/></a></li>
+              <li><a className="linked"><GrLinkedinOption/></a></li>
+              <li><a className="pint"><FaPinterestP/></a></li>
+            </ul>
+            <span className="lang">
+              <img src={LangPng}></img>
+              English
+              <a>
+                <RiArrowDropDownLine/>
+              </a>
             </span>
-          </li>
-          <li className="header-1-li ">
-            <span>Free Shipping for all Order of Rs. 499</span>
-          </li>
-        </ul>
-      </div>
-
-      <div className="header-2 col-md-6 col-lg-6 ">
-        <div className="cont">
-          <a href="#" classname="fac">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
-          <a href="#" className="twi">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-          <a href="#" className="lin">
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
-          <a href="#" classname="pin">
-            <FontAwesomeIcon icon={faPinterestP} />
-          </a>
-          <a href="/signin" className="use">
-            <FontAwesomeIcon icon={faUser} /> Login
-          </a>
+            <span className="login">
+              <a><FcManager/></a>Login
+            </span>
+          </div>
         </div>
       </div>
     </div>

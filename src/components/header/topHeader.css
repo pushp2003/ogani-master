@@ -1,27 +1,108 @@
-.header{
-    overflow: hidden;
+.header-section {
+  background-color: #f5f5f5;
+  padding: 10px 0;
 }
-.header-li{
-    margin-left: 155px;
+.header-section .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.header-1 ul li {
-    list-style: none;
-    
+.mail-section ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
-.header-1-li span{
-    float: left;
-    padding: 12px;
-    font-size: 15px;
+.mail-section ul li {
+  list-style-type: none;
+  font-size: 14px;
+  color: #1c1c1c;
+  line-height: 1;
 }
-.cont{
-    margin-top: 10px;
+.mail-section ul li span {
+  padding-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
-.header-2 .cont a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.831);
-    margin-left: 60px;
-    font-size: 15px;
+.mail-section ul li span:hover{
+  color: #0d6efd;
 }
-.use :hover{ 
-   color: #007bff ;
+.mail-section ul li:first-child {
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mail-section ul li:last-child {
+  padding-left: 20px;
+}
+.social-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.social-section .social-section-1 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.social-section .social-section-1 li{
+  list-style-type: none;
+  font-size: 14px;
+  padding-left: 25px;
+  line-height: 2;
+}
+.social-section .social-section-1 li a{
+  cursor: pointer;
+}
+.social-section .social-section-1 li .pint{
+  color: red;
+}
+.social-section .social-section-1 li .linked{
+  color: #0a66c2;
+}
+.social-section .social-section-1 li .face{
+  color: #4867aa;
+}
+.social-section .social-section-1 li .twitter{
+  color: #1da1f2;
+}
+.social-section .social-section-1 li:last-child{
+  padding-right: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.social-section .lang {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-size: 14px;
+}
+.social-section .lang a{
+  font-size: 20px;
+  cursor: pointer;
+}
+.social-section .lang img{
+  margin-bottom:2px;
+}
+.social-section .lang img:first-child {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.social-section .lang a:last-child{
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.social-section .login{
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.social-section .login a{
+  font-size: 20px;
+}
+.social-section .login a:first-child{
+padding-left: 15px;
+padding-right: 5px;
 }
