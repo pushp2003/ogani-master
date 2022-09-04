@@ -1,116 +1,87 @@
-
-.header-3{
-    /* overflow: hidden; */
+.header-section-bottom{
+    /* margin-top: 10px; */
 }
-.main-h ul li a{
-    text-decoration: none;
+.header-inner-bottom{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.main-h ul li {
-    list-style: none;
-}
- .main-h-1a .all-dep{
+.list-item-btn button{
+    border: 1px solid #7fad39;
     background-color: #7fad39;
+    padding: 4px 22px;
+}
+.list-item-btn button span a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+.list-item-btn button span .drop{
+    font-size: 25px;
+    font-weight: 900; 
+}
+.list-item-btn button span .bars{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.list-item-btn button span .txt{
+    font-size: 18px;
+    font-weight: 900;
+}
+.header-inner-bottom .search-box{
+    border: 1px solid black;
+    margin-right: 50px;
+}
+.header-inner-bottom .search-box .search-in a{
+    padding-left: 20px;
+    font-weight: 700;
     cursor: pointer;
-    height: 47px;
-    width: 280px;
-    padding-top:6px;
 }
-.main-h-1a .all-dep button{
-    background-color: #7fad39;
-    border:1px solid #7fad39;
-    font-size: 20px;
-    font-weight: bold;
-    font-family:sans-serif;
-    color: aliceblue;
+.header-inner-bottom .search-box .search-in a:first-child{
+    padding-right: 10px;
 }
-.main-h-1a .all-dep span{  
-    margin-left: 40px;
-}
-.main-h-1a .all-dep span .ang{
-    font-size: 15px;
-    margin-left: 15px;
-}
-.main-h-1a .all-dep span .bar{
-    margin-right: 5px;
-}
-
-.main-h-1{
-    margin-left: 80px;
-    /* background-color: bisque; */
-}
-.main-h-1a{
-    /* background-color: rgb(138, 131, 145); */
-    margin-left: 83px;
-}
-.m-h-3{
-    border: 1px solid gray;
-    width: 520px;
-    height: 47px;
-    margin-left: 10px;
-}
-.m3{
-    margin-left: 30px;
-    margin-top: 6px;
-}
-.m3 a{
-    text-decoration: none;
-    color: black;
-    font-size: 13;
-    font-weight: bolder;
-}
-.m3 input{
-    margin-left: 25px;
+.header-inner-bottom .search-box .search-in input{
+    margin-left: 13px;
     border:none;
     outline: none;
-    font-size: large;
-    height: 30px;
-    width: 250px;
-    color: #6f6f6f;
+    width: 320px;
+    border-left: 1px solid rgba(0, 0, 0, 0.162);
+    padding-left: 20px;
 }
-.faAng{
-    cursor: pointer;
-    font-size: 12px;
-    margin-left: 9px;
-}
-.m3 button{
-    height: 45px;
-    margin-top: -6px;
-    width: 86.1px;
-    font-size: large;
-    font-weight: bolder;
+.header-inner-bottom .search-box .search-in button{
+    border: 1px solid #7fad39;
     background-color: #7fad39;
-    border:1px solid #7fad39;
-    color: aliceblue;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    height: 49px;
+    width: 100px;
 }
-.faphone{
-    font-size: 50px;
-    margin-left: 10px;
-    color: rgba(102, 102, 104, 0.29);
+.header-inner-bottom .support{
+    display: flex;
 }
-.faphone1{
+.header-inner-bottom .support .help-line{
+    /* border: 1px solid rgba(0, 0, 0, 0.308); */
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+.header-inner-bottom .support .help-line a{
     font-size: 25px;
     color: #7fad39;
+    padding-left: 13px;
+    padding-right: 10px; 
 }
-.ph-1{
-    margin-top: -37px;
-    margin-left: 22px;
+.header-inner-bottom .support .help-line a:hover{
+    color: #7fad39;
 }
-
-.help-1a{
-    /* background-color: #7fad39; */
-    height: 45px;
-    margin-left: 70px;
-    margin-top: -40px;
+.header-inner-bottom .support .help-line-num{
+    padding-left: 10px;
 }
-.help-3a{
-    font-size: 18px;
-    font-weight: bolder ;
-}
-.help-3b{
-    font-size: 15px;
-    color: #6f6f6f;
-    margin-top: -17px;
-}
-.list-line{
-    display: none;
+.header-inner-bottom .support .help-line-num span{
+    color: rgba(0, 0, 0, 0.564);
+    font-size: 13px;
 }

@@ -1,50 +1,73 @@
-.header-2{
-    overflow: hidden;
+.header-inner-mid{
+    margin: 0;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.bottom-header-1 a {
-    margin-left: 183px;
+.header-inner-mid .logo{
+    cursor: pointer;
 }
-.bottom-header-1 img{
-    padding: 12px;
-}
-.bottom-header-2 a{
-    text-align: center;
+.header-inner-mid .main-section a{
+    padding: 0px 25px;
     text-decoration: none;
-    color: rgb(18, 16, 16);
-    padding: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.879);
+}
+.header-inner-mid .main-section .l-1{
+    display: flexbox;
+    visibility: hidden;
+    position: absolute;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 170px;
+    transition: all , 0.5s;
+    padding: 10px 0px;
+    margin-left: 205px;
+}
+.header-inner-mid .main-section .l-1 a{
+    padding: 8px 15px;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 500;
+    color: white;
 }
-.bottom-header-2{
-    margin-top: 25px;
+.header-inner-mid .main-section .l-1 a:hover{
+    color: #0d6efd;
 }
-.bottom-header-3 a{
-    padding: 15px;
-    color: black;
+.header-inner-mid .main-section .page-sec:hover .l-1{
+    visibility: visible;
 }
-.bottom-header-3 .heart:hover{
-    color:red;
+.header-inner-mid .main-section .home{
+    color: #7fad39;
 }
-.bottom-header-3 .basket:hover{
-    color:rgb(67, 38, 172);
+.header-inner-mid .main-section a:hover{
+    color: #7fad39;
 }
-.bottom-header-3{
-    margin-top: 25px;
-
+.cart-section{
+    align-items: center;
 }
-.bottom-header-4{
-    margin-top: 25px;
-    color: rgba(43, 43, 43, 0.753);
+.cart-section .fav{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.872);
 }
-.bottom-header-4 span{
-    color: black !important;
+.cart-section a{
+    padding: 0px 10px;
 }
-.icon{
-    font-size: smaller;
+.cart-section span{
+    padding-left: 10px;
 }
-.hom-1{
-    color: #7fad39 !important;
+.cart-section .fav:hover{
+    color: red;
 }
-.l-1{
-    display: none;
+.cart-section .bag{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.872);
+}
+.cart-section .bag:hover{
+    color: #0d6efd;
 }
